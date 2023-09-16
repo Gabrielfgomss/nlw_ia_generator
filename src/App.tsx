@@ -20,10 +20,6 @@ export function App() {
   const [temperatura, setTemperatura] = useState(0.5);
   const [videoId, setVideoId] = useState<string | null>(null);
 
-  function handlePromptSelected(template: string) {
-    console.log(template);
-  }
-
   const {
     input,
     setInput,
